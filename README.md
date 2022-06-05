@@ -42,7 +42,7 @@ final FlutterNavigator _flutterNavigator = FlutterNavigator();
 _flutterNavigator.push(PageTwo.route());
 ```
 
-The FlutterNavigator is a singleton service so it will always keep the same instance throughout the lifetime of the application.
+The FlutterNavigator is a singleton service so it will always keep the same instance throughout the lifetime of the application. You can call the Navigator API methods through the service (like 'push', 'pop', 'pushAndRemoveUntil', etc)... It's that simple!
 
 ### Using the FlutterNavigator Observers
 
