@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
 You need to provide the navigator key to your MaterialApp as that is how the service will communicate with the navigator state without the build context.
 
 ### Using the FlutterNavigator
@@ -40,9 +41,10 @@ final FlutterNavigator _flutterNavigator = FlutterNavigator();
 
 _flutterNavigator.push(PageTwo.route());
 ```
+
 The FlutterNavigator is a singleton service so it will always keep the same instance throughout the lifetime of the application.
 
-### Using the FlutterNavigator Oberservs
+### Using the FlutterNavigator Observers
 
 ```dart
 class MyApp extends StatelessWidget {
@@ -64,12 +66,15 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
 As with the navigator key, you can use the route observer provided by the service and this can be accessed throughout the application.
 
 ### Creating your own implementation
+
 ```dart
 class CustomFlutterNavigator implements IFlutterNavigator
 ```
+
 To create your own implementation, all you need to do is implement the interface IFlutterNavigator and provide all the needed methods and properties.
 
 ### Examples
@@ -77,9 +82,11 @@ To create your own implementation, all you need to do is implement the interface
 - [BLoC Navigation](https://github.com/LukeMoody01/flutter_navigator/tree/main/packages/flutter_navigator) - an example of how to use the FlutterNavigator within a BLoC.
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
