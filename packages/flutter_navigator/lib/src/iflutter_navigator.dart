@@ -1,9 +1,9 @@
 // ignore_for_file: comment_references, lines_longer_than_80_chars
 
-part of 'flutter_navigation.dart';
+part of 'flutter_navigator.dart';
 
 /// An interface for the navigation service
-abstract class IFlutterNavigation {
+abstract class IFlutterNavigator {
   /// The navigator key used for the app to maintain the stack and state of
   /// the navigation.
   final GlobalKey<NavigatorState>? navigatorKey = GlobalKey<NavigatorState>();

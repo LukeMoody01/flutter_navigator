@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 
-part 'iflutter_navigation.dart';
+part 'iflutter_navigator.dart';
 
 /// A service that provides access to the [Navigator] API
 /// without the need of a build context using a navigator key
-class FlutterNavigation implements IFlutterNavigation {
-  /// Get's the [FlutterNavigation] instance
-  factory FlutterNavigation() => _singleton;
+class FlutterNavigator implements IFlutterNavigator {
+  /// Get's the [FlutterNavigator] instance
+  factory FlutterNavigator() => _singleton;
 
-  FlutterNavigation._internal();
+  FlutterNavigator._internal();
 
-  static final FlutterNavigation _singleton = FlutterNavigation._internal();
+  static final FlutterNavigator _singleton = FlutterNavigator._internal();
 
   @override
   final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
