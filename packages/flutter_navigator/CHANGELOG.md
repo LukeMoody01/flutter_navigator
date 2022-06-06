@@ -1,3 +1,11 @@
+# 0.1.2
+
+Additional changes to Documentation.
+
+# 0.1.1
+
+Minor Updates to Documentation.
+
 # 0.1.0
 
 Initial Version of the library.

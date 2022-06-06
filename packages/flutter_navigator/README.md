@@ -12,7 +12,7 @@ flutter_navigator: ^0.1.0
 
 ## Usage
 
-### Using the Navigator Key
+### Adding the Navigator Key
 
 ```dart
 class MyApp extends StatelessWidget {
@@ -79,7 +79,7 @@ To create your own implementation, all you need to do is implement the interface
 
 ### Examples
 
-- [BLoC Navigation](https://github.com/LukeMoody01/flutter_navigator/tree/main/packages/flutter_navigator) - an example of how to use the FlutterNavigator within a BLoC.
+- [BLoC Navigation](https://github.com/LukeMoody01/flutter_navigator/tree/main/examples/bloc_navigation) - an example of how to use the FlutterNavigator within a BLoC.
 
 ## Contributing
 
