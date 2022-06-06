@@ -7,7 +7,7 @@ FlutterNavigator is a dart library for dealing with the Navigator API without a 
 Use the pubspec.yaml file to install the dependency.
 
 ```yaml
-flutter_navigator: ^0.1.0
+flutter_navigator: ^0.1.2
 ```
 
 ## Usage
