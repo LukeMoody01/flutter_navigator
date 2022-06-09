@@ -1,6 +1,6 @@
 # FlutterNavigator
 
-FlutterNavigator is a dart library for dealing with the Navigator API without a build context. This package wraps the NavigatorKey and provides a cleaner service for navigating without context in your flutter application.
+FlutterNavigator is a library for dealing with the Navigator API without a build context. This package wraps the NavigatorKey and provides a cleaner service for navigating without context in your flutter application.
 
 ## Installation
 
