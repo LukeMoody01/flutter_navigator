@@ -1,3 +1,8 @@
+# 0.1.4
+
+- feat: Add missing pushNamed method in navigator service
+- chore: Update documentation to add best practices with bloc
+
 # 0.1.3
 
 - chore: Update documentation and remove bad practices example

@@ -120,6 +120,18 @@ class FlutterNavigator implements IFlutterNavigator {
 
   @override
   @optionalTypeArgs
+  Future<T?> pushNamed<T extends Object?>(
+    String routeName, {
+    Object? arguments,
+  }) {
+    return navigatorKey.currentState!.pushNamed<T>(
+      routeName,
+      arguments: arguments,
+    );
+  }
+
+  @override
+  @optionalTypeArgs
   Future<T?> pushAndRemoveUntil<T extends Object?>(
       Route<T> newRoute, RoutePredicate predicate) {
     return navigatorKey.currentState!

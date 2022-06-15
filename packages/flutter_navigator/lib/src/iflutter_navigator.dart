@@ -380,6 +380,33 @@ abstract class IFlutterNavigator {
   @optionalTypeArgs
   Future<T?> push<T extends Object?>(Route<T> route);
 
+  /// Push a named route onto the navigator.
+  ///
+  /// {@macro flutter.widgets.navigator.pushNamed}
+  ///
+  /// {@macro flutter.widgets.Navigator.pushNamed}
+  ///
+  /// {@tool snippet}
+  ///
+  /// Typical usage is as follows:
+  ///
+  /// ```dart
+  /// void _aaronBurrSir() {
+  ///   navigator.pushNamed('/nyc/1776');
+  /// }
+  /// ```
+  /// {@end-tool}
+  ///
+  /// See also:
+  ///
+  ///  * [restorablePushNamed], which pushes a route that can be restored
+  ///    during state restoration.
+  @optionalTypeArgs
+  Future<T?> pushNamed<T extends Object?>(
+    String routeName, {
+    Object? arguments,
+  });
+
   /// Push the given route onto the navigator, and then remove all the previous
   /// routes until the `predicate` returns true.
   ///
