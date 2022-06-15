@@ -77,10 +77,6 @@ class CustomFlutterNavigator implements IFlutterNavigator
 
 To create your own implementation, all you need to do is implement the interface IFlutterNavigator and provide all the needed methods and properties.
 
-### Examples
-
-- [BLoC Navigation](https://github.com/LukeMoody01/flutter_navigator/tree/main/examples/bloc_navigation) - an example of how to use the FlutterNavigator within a BLoC.
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
