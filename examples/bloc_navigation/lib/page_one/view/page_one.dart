@@ -12,7 +12,8 @@ class PageOne extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final _flutterNavigator = FlutterNavigator();
+    final _flutterNavigator =
+        FlutterNavigator(); //This should be provided by the widgets above, but this is an example
     return BlocProvider(
       create: (_) => PageOneBloc(),
       child: Scaffold(
