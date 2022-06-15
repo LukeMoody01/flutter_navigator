@@ -1,3 +1,7 @@
+# 0.1.3
+
+- chore: Update documentation and remove bad practices example
+
 # 0.1.2
 
 Additional changes to Documentation.

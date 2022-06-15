@@ -7,7 +7,7 @@ FlutterNavigator is a library for dealing with the Navigator API without a build
 Use the pubspec.yaml file to install the dependency.
 
 ```yaml
-flutter_navigator: ^0.1.2
+flutter_navigator: ^0.1.3
 ```
 
 ## Usage
@@ -76,10 +76,6 @@ class CustomFlutterNavigator implements IFlutterNavigator
 ```
 
 To create your own implementation, all you need to do is implement the interface IFlutterNavigator and provide all the needed methods and properties.
-
-### Examples
-
-- [BLoC Navigation](https://github.com/LukeMoody01/flutter_navigator/tree/main/examples/bloc_navigation) - an example of how to use the FlutterNavigator within a BLoC.
 
 ## Contributing
 
